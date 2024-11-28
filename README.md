@@ -1,3 +1,7 @@
+###EXPERIEMENT-3
+**NAME:NANDIKA S**
+**REGISTRATION NUMBER:24010030**
+
 # HALF_ADDER_SUBTRACTOR
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
@@ -49,6 +53,7 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
+![Screenshot 2024-11-28 110620](https://github.com/user-attachments/assets/4569e7c3-bc8c-4345-80d7-005345b2366a)
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
@@ -57,5 +62,8 @@ Developed by: RegisterNumber:24010030
 **RTL Schematic**
 
 **Output/TIMING Waveform**
+![Screenshot 2024-11-28 110549](https://github.com/user-attachments/assets/cb4c2274-023f-43cb-b67e-67e02691ad71)
+
 
 **Result:**
+Succesfully designed a half adder and half subtractor circuit and verify its truth table in Quartus using Verilog programming.
