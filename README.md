@@ -26,7 +26,7 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 
 Figure -01 HALF ADDER
 
-**Half Subtractor**
+##**Half Subtractor**
 
 The half-subtractor is a combinational circuit which is used to perform subtraction of two bits. It has two inputs, X (minuend) and Y (subtrahend) and two outputs D (difference) and B (borrow). To perform x - y, we have to check the relative magnitudes of x and y. If x ;;, y, we have three possibilities: 0 - 0 = 0, 1 - 0 = 1, and 1 - I = 0. The result is called the difference bit. If x < y, we have 0 - I, and it is necessary to borrow a 1 from the next higher stage. The I borrowed from the next higher stage adds 2 to the minuend bit, just as in the decimal system a borrow adds 10 to a minuend digit. With the minuend equal to 2, the difference becomes 2 - I = 1. The half-subtractor needs two outputs. One output generates the difference and will be designated by the symbol D. The second output, designated B for borrow, generates the binary signal that informs the next stage that a I has been borrowed. 
 
@@ -38,6 +38,8 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+![WhatsApp Image 2024-11-28 at 11 30 49_9bd6a231](https://github.com/user-attachments/assets/3c1e0554-cc4e-42f0-8ebf-62a3e70dec80)
+
 
 **Procedure**
 
@@ -60,9 +62,10 @@ Figure -02 HALF Subtractor
 Developed by: RegisterNumber:24010030
 
 **RTL Schematic**
+![Screenshot 2024-11-28 110549](https://github.com/user-attachments/assets/0000b6b9-a3f0-4184-bfba-9747573771e2)
 
 **Output/TIMING Waveform**
-![Screenshot 2024-11-28 110549](https://github.com/user-attachments/assets/cb4c2274-023f-43cb-b67e-67e02691ad71)
+![WhatsApp Image 2024-11-28 at 11 30 49_9014fd21](https://github.com/user-attachments/assets/0bb18d3c-db66-45cb-9938-58098b7fd58b)
 
 
 **Result:**
